@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribución suma de 70 dados</title>
+    <!-- Enlace al CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Plotly.js desde CDN para generar la gráfica -->
+    <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Probabilidad de obtener 200 puntos al lanzar 70 dados</h1>
+        <div id="grafico" class="grafico"></div>
+        <p class="nota">
+            El área sombreada en rojo representa la probabilidad calculada mediante aproximación normal con corrección por continuidad.
+            Probabilidad ≈ 0.00020 (0.02%).
+        </p>
+    </div>
+    <!-- Script principal con la lógica de la gráfica -->
+    <script src="script.js"></script>
+</body>
+</html>
